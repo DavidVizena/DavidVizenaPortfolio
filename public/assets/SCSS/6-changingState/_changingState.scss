@@ -1,0 +1,21 @@
+/* media queries for screen-size relative styling*/
+
+/* mediascreens */
+
+@media screen and (min-width: 1px) and (max-width: 640px) {
+    .viewWorkContainer {
+        left: 25%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .viewWorkContainer {
+        left: 37%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .viewWorkContainer {
+        left: 32%;
+    }
+}

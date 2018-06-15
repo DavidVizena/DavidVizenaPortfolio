@@ -257,8 +257,9 @@ body {
 .viewWorkContainer {
   position: absolute;
   top: 75%;
-  left: 43%;
-  width: 13%; }
+  left: 44%;
+  width: 13%;
+  align-content: center; }
   .viewWorkContainer a {
     cursor: pointer;
     height: 55px;
@@ -275,33 +276,33 @@ body {
     border: 2px solid rgba(44, 44, 44, 0.5); }
   .viewWorkContainer a:hover {
     color: #e8e8e8;
-    transition: .5s; }
+    transition: 0.5s; }
     .viewWorkContainer a:hover .viewWorkArrow {
       color: #f23236;
-      transition: .5s; }
+      transition: 0.5s; }
   .viewWorkContainer a:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
-    left: 15px;
+    left: 0;
     width: 0;
     height: 0;
     background: transparent;
     border: 2px solid transparent; }
   .viewWorkContainer a:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
-    left: 15px;
+    left: 0;
     width: 0;
     height: 0;
     background: transparent;
     border: 2px solid transparent; }
   .viewWorkContainer a:hover:before {
-    animation: animate .6s linear forwards; }
+    animation: animate 0.6s linear forwards; }
   .viewWorkContainer a:hover:after {
-    animation: animate2 .6s linear forwards;
-    animation-delay: .11s; }
+    animation: animate2 0.6s linear forwards;
+    animation-delay: 0.11s; }
 
 .line {
   position: absolute;
@@ -310,8 +311,8 @@ body {
   width: 2px;
   height: 50px;
   background: #b8b8b8;
-  opacity: .2;
-  transition: height 1.0s ease; }
+  opacity: 0.2;
+  transition: height 1s ease; }
 
 @keyframes animate {
   0% {
@@ -364,6 +365,18 @@ body {
   bottom: -200px;
   z-index: -150; }
   .paraBG #bg {
-    opacity: .50; }
+    opacity: 0.5; }
+
+/* media queries for screen-size relative styling*/
+/* mediascreens */
+@media screen and (min-width: 1px) and (max-width: 640px) {
+  .viewWorkContainer {
+    left: 25%; } }
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .viewWorkContainer {
+    left: 37%; } }
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .viewWorkContainer {
+    left: 32%; } }
 
 /*# sourceMappingURL=app.css.map */
