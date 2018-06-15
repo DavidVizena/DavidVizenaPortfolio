@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- RESET LINK -->
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- FONT AWESOME CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- PERSONAL STYLE SHEET -->
+    <link rel="stylesheet" href="./assets/CSS/app.css">
+    <!-- JQUERY SCRIPT LINKS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- PERSONAL JAVASCRIPT SHEET -->
+    <script src="./assets/Javascript/app.js"></script>
+    <title>David Vizena - Portfolio</title>
+</head>
+
+<body>
+    <!-- SETUP FOR THE BACKGROUND IMAGE AND PARALLAX -->
+    <!-- <div id="bg"> -->
+    <div class="container paraBG">
+        <ul id="scene">
+            <li class="layer" id="bg" data-depth="0.05">
+                <img src="./assets/Images/explosionBG.jpg" alt="bg">
+            </li>
+            <li class="layer" id="mix" data-depth="0.55">
+                <img src="./assets/Images/slowThick.png" alt="slow">
+            </li>
+            <li class="layer" id="dark" data-depth="0.75">
+                <img src="./assets/Images/fastThick.png" alt="fast">
+            </li>
+            <li class="layer" id="sparks" data-depth="1.35">
+                <img src="./assets/Images//sparks.png" alt="sparks">
+            </li>
+
+        </ul>
+    </div>
+    <!-- </div> -->
+    <!--  -->
+
+    <!-- NAVBAR -->
+
+    <ul class="nav">
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li>
+            <a class="current" href="#">Work</a>
+        </li>
+        <li>
+            <a href="./aboutMe.html">About</a>
+        </li>
+    </ul>
+    <!--  -->
+
+    <!-- PORTFOLIO CONTAINERS -->
+    <div class="projects">
+        <div id="huddle">
+            <a href="https://davidvizena.github.io/project1/" target="_blank">
+                <img src="./assets/Images/huddle.jpg" alt="HuddelImage">
+            </a>
+        </div>
+        <div id="zelda">
+            <a href="https://davidvizena.github.io/TriviaGame/" target="_blank">
+                <img src="./assets/Images/zelda.jpg" alt="Zelda Image">
+            </a>
+        </div>
+        <div id="gundam">
+            <a href="https://davidvizena.github.io/Hangman-Game/" target="_blank">
+                <img src="./assets/Images/gundam.jpg" alt="Gundam Image">
+            </a>
+        </div>
+        <div id="harryPotter">
+            <a href="https://davidvizena.github.io/week-4-game/" target="_blank">
+                <img src="./assets/Images/harryPotter.jpg" alt="HarryPotterImage">
+            </a>
+        </div>
+        <div id="gifTastic">
+            <a href="https://davidvizena.github.io/GifTastic/" target="_blank">
+                <img src="./assets/Images/giphy.jpg" alt="GiphyImage">
+            </a>
+        </div>
+        <div id="trainSchedule">
+            <a href="https://davidvizena.github.io/trainSchedule/" target="_blank">
+                <img src="./assets/Images/trains.jpg" alt="TrainsImage">
+            </a>
+        </div>
+        <div id="liriNode">
+            <a href="https://davidvizena.github.io/liri-node-app/" target="_blank">
+                <img src="./assets/Images/liri.jpg" alt="LiriImage">
+            </a>
+        </div>
+    </div>
+    <!--  -->
+
+
+    <!-- Contact Button -->
+    <div class="container .contactMenu text-center">
+        <div id="contactRow" class="row">
+            <div class="col-sm-12 text-left">
+                <a id="bottomMenu" href="#">
+                    <div class="contactContent">
+                        Contact
+                        <span class="contactArrow">></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottomMenu fixed-bottom text-center">
+        <br>
+        <br>
+        <p id="phoneNumber">+1 409 748 9169</p>
+        <p id="email">david.vizena@gmail.com</p>
+        <p id="address">7710 Aria Loop BLDG 1, Austin TX 78736</p>
+        <a href="https://twitter.com/DavidVizena?lang=en" target="_blank" class="twitterLink">
+            <i class="fab fa-twitter fa-3x"></i>
+        </a>
+        <a href="https://www.facebook.com/david.vizena?ref=bookmarks" target="_blank" class="facebookLink">
+            <i class="fab fa-facebook-square fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/david-vizena-56689581/" target="_blank" class="linkedinLink">
+            <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/9137418/david-vizena" target="_blank" class="stackoverflowLink">
+            <i class="fab fa-stack-overflow fa-3x"></i>
+        </a>
+        <a href="https://github.com/DavidVizena" target="_blank" class="githubLink">
+            <i class="fab fa-github-square fa-3x"></i>
+        </a>
+
+    </div>
+    <!--  -->
+
+
+
+
+    <!-- PARALLAX JS -->
+    <script src="./assets/Javascript/parallax.js"></script>
+    <script>
+        // 
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+
+</html>

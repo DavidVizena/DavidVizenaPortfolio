@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- RESET LINK -->
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- FONT AWESOME CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- TWEENMAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <!-- SNAP.SVG -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+    <!-- PERSONAL STYLE SHEET -->
+    <link rel="stylesheet" href="./assets/CSS/app.css">
+    <!-- JQUERY SCRIPT LINKS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- PERSONAL JAVASCRIPT SHEET -->
+    <script src="./assets/Javascript/app.js"></script>
+    <title>David Vizena - About Me</title>
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <img id="backgroundImage" src="./assets/Images/aboutMeBG.jpg" alt="Background">
+
+    <!-- ABOUT ME WORDS LEFT -->
+    <article class="content contentLeft">
+        <img src="./assets/Images/am.png" alt="am" id="am">
+        <img id="textBoth" src="./assets/Images/leftRightText.png" alt="text">
+    </article>
+    <!--  -->
+
+    <div class="container aboutMeBG">
+        <ul id="scene">
+            <li class="layer" id="aboutMe1" data-depth="0.17">
+                <img src="./assets/Images/aboutMe1.png" alt="aboutMe1">
+            </li>
+            <li class="layer" id="aboutMe2" data-depth="0.225">
+                <img src="./assets/Images/aboutMe2.png" alt="aboutMe2">
+            </li>
+            <li class="layer" id="aboutMe3" data-depth="0.17">
+                <img src="./assets/Images/aboutMe3.png" alt="aboutMe3">
+            </li>
+            <li class="layer" id="aboutMe4" data-depth="0.275">
+                <img src="./assets/Images/aboutMe4.png" alt="aboutMe4">
+            </li>
+            <li class="layer" id="aboutMe5" data-depth="0.17">
+                <img src="./assets/Images/aboutMe5.png" alt="aboutMe5">
+            </li>
+            <li class="layer" id="aboutMe6" data-depth="0.215">
+                <img src="./assets/Images/aboutMe6.png" alt="aboutMe6">
+            </li> `
+            <li class="layer" id="aboutMe7" data-depth="0.17">
+                <img src="./assets/Images/aboutMe7.png" alt="aboutMe7">
+            </li>
+            <li class="layer" id="aboutMe8" data-depth="0.17">
+                <img src="./assets/Images/aboutMe8.png" alt="aboutMe8">
+            </li>
+            <li class="layer" id="aboutMe9" data-depth="0.235">
+                <img src="./assets/Images/aboutMe9.png" alt="aboutMe9">
+            </li>
+        </ul>
+    </div>
+    <!--  -->
+
+    <!-- ABOUT ME RIGHT -->
+    <article class="content contentRight">
+        <img src="./assets/Images/was.png" alt="was" id="was">
+    </article>
+    <!--  -->
+
+
+    <!-- NAVBAR -->
+    <ul class="nav">
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li>
+            <a href="./portfolio.html">Work</a>
+        </li>
+        <li>
+            <a class="current" href="#">About</a>
+        </li>
+    </ul>
+    <!--  -->
+
+
+    <!-- ROTATING TEXT -->
+    <section>
+        <div id="textContainer"></div>
+    </section>
+    <!--  -->
+
+
+    <!-- Contact Button -->
+    <div class="container .contactMenu text-center">
+        <div id="contactRow" class="row">
+            <div class="col-sm-12 text-left">
+                <a id="bottomMenu" href="#">
+                    <div class="contactContent">
+                        Contact
+                        <span class="contactArrow">></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottomMenu fixed-bottom text-center">
+        <br>
+        <br>
+        <p id="phoneNumber">+1 409 748 9169</p>
+        <p id="email">david.vizena@gmail.com</p>
+        <p id="address">7710 Aria Loop BLDG 1, Austin TX 78736</p>
+        <a href="https://twitter.com/DavidVizena?lang=en" target="_blank" class="twitterLink">
+            <i class="fab fa-twitter fa-3x"></i>
+        </a>
+        <a href="https://www.facebook.com/david.vizena?ref=bookmarks" target="_blank" class="facebookLink">
+            <i class="fab fa-facebook-square fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/david-vizena-56689581/" target="_blank" class="linkedinLink">
+            <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/9137418/david-vizena" target="_blank" class="stackoverflowLink">
+            <i class="fab fa-stack-overflow fa-3x"></i>
+        </a>
+        <a href="https://github.com/DavidVizena" target="_blank" class="githubLink">
+            <i class="fab fa-github-square fa-3x"></i>
+        </a>
+
+    </div>
+    <!--  -->
+
+    <!-- PARALLAX JS -->
+    <script src="./assets/Javascript/parallax.js"></script>
+    <script>
+        // 
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+
+
+
+</body>
+
+</html>
