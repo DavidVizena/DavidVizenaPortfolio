@@ -42,11 +42,11 @@ body {
 
 #davidVizena {
   position: absolute;
-  height: 30em;
-  width: 40em;
+  height: 20em;
+  width: 30em;
   opacity: 0.3;
-  top: 100px;
-  left: 23%; }
+  top: 200px;
+  left: 30%; }
 
 /*  */
 .paraBG {
