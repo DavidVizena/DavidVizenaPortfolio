@@ -41,9 +41,12 @@ body {
   opacity: 0.1; }
 
 #davidVizena {
-  position: relative;
+  position: absolute;
+  height: 60em;
+  width: 60em;
   opacity: 0.3;
-  top: 25%; }
+  top: 5%;
+  left: 8%; }
 
 /*  */
 .paraBG {
@@ -306,8 +309,8 @@ body {
 
 .line {
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  bottom: -345%;
+  left: 44%;
   width: 2px;
   height: 50px;
   background: #b8b8b8;
@@ -371,10 +374,16 @@ body {
 /* mediascreens */
 @media screen and (min-width: 1px) and (max-width: 640px) {
   .viewWorkContainer {
-    left: 25%; } }
+    left: 25%; }
+
+  .line {
+    display: none; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
-    left: 37%; } }
+    left: 37%; }
+
+  .line {
+    display: none; } }
 @media screen and (min-width: 769px) and (max-width: 980px) {
   .viewWorkContainer {
     left: 32%; } }
