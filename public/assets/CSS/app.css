@@ -375,7 +375,7 @@ body {
 @media screen and (min-width: 1px) and (max-width: 640px) {
   .viewWorkContainer {
     left: 25%;
-    top: 50%; }
+    top: 70%; }
 
   .line {
     display: none; }
@@ -383,7 +383,7 @@ body {
   #davidVizena {
     width: 20em;
     height: 10em;
-    top: 10%;
+    top: 15%;
     left: 10%;
     align-items: center; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
