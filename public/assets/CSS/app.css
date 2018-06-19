@@ -375,7 +375,7 @@ body {
 @media screen and (min-width: 1px) and (max-width: 640px) {
   .viewWorkContainer {
     left: 25%;
-    top: 70%; }
+    top: 60%; }
 
   .line {
     display: none; }
@@ -394,6 +394,10 @@ body {
     display: none; } }
 @media screen and (min-width: 769px) and (max-width: 980px) {
   .viewWorkContainer {
-    left: 32%; } }
+    left: 30%; }
+
+  #davidVizena {
+    top: 20%;
+    left: 30%; } }
 
 /*# sourceMappingURL=app.css.map */
