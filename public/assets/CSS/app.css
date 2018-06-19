@@ -382,7 +382,8 @@ body {
   #davidVizena {
     width: 20em;
     height: 10em;
-    top: 10%; } }
+    top: 10%;
+    align-items: center; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }
