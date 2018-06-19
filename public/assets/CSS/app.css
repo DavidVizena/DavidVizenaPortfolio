@@ -374,7 +374,8 @@ body {
 /* mediascreens */
 @media screen and (min-width: 1px) and (max-width: 640px) {
   .viewWorkContainer {
-    left: 25%; }
+    left: 25%;
+    bottom: 25%; }
 
   .line {
     display: none; }
@@ -383,6 +384,7 @@ body {
     width: 20em;
     height: 10em;
     top: 10%;
+    left: 2%;
     align-items: center; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {

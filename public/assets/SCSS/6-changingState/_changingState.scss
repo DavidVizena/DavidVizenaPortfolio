@@ -3,31 +3,33 @@
 /* mediascreens */
 
 @media screen and (min-width: 1px) and (max-width: 640px) {
-  .viewWorkContainer {
-    left: 25%;
-  }
-  .line {
-    display: none;
-  }
-  #davidVizena {
-    width: 20em;
-    height: 10em;
-    top: 10%;
-    align-items: center;
-  }
+    .viewWorkContainer {
+        left: 25%;
+        bottom: 25%;
+    }
+    .line {
+        display: none;
+    }
+    #davidVizena {
+        width: 20em;
+        height: 10em;
+        top: 10%;
+        left: 2%;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-  .viewWorkContainer {
-    left: 37%;
-  }
-  .line {
-    display: none;
-  }
+    .viewWorkContainer {
+        left: 37%;
+    }
+    .line {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-  .viewWorkContainer {
-    left: 32%;
-  }
+    .viewWorkContainer {
+        left: 32%;
+    }
 }
