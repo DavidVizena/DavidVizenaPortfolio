@@ -310,7 +310,7 @@ body {
 .line {
   position: absolute;
   bottom: -345%;
-  left: 46%;
+  left: 50%;
   width: 2px;
   height: 50px;
   background: #b8b8b8;
