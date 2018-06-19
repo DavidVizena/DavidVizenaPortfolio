@@ -7,7 +7,7 @@
     bottom: -200px;
     z-index: -150;
     #bg {
-        opacity: .50;
+        opacity: 0.5;
     }
 }
 
@@ -18,17 +18,17 @@
     overflow-y: auto;
     text-align: center;
     height: 100%;
-    width: 3000px;
+    width: 80%;
     left: 11%;
     padding-left: 150px;
     padding-bottom: 150px;
     padding-top: 200px;
     img {
-        height: 500px;
-        width: 1000px;
+        height: 20em;
+        width: 30em;
         margin: 15px;
-        border: 3px solid rgba(242, 50, 54, .5);
-        transition: all .2s ease
+        border: 3px solid rgba(242, 50, 54, 0.5);
+        transition: all 0.2s ease;
     }
     :hover {
         transform: scale(1.05);
