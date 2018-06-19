@@ -45,8 +45,8 @@ body {
   height: 20em;
   width: 30em;
   opacity: 0.3;
-  top: 30%;
-  left: 35%; }
+  top: 20%;
+  left: 30%; }
 
 /*  */
 .paraBG {
@@ -260,7 +260,7 @@ body {
 .viewWorkContainer {
   position: absolute;
   top: 75%;
-  left: 44%;
+  left: 40%;
   width: 13%;
   align-content: center; }
   .viewWorkContainer a {
