@@ -389,7 +389,10 @@ body {
 
   .nav {
     width: 100%;
-    left: 2%; } }
+    left: 2%; }
+
+  .contactContent {
+    top: 80%; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }
