@@ -94,8 +94,8 @@ body {
 
 #backgroundImage {
   background-size: cover;
-  top: -10;
-  left: -30%;
+  top: -15;
+  left: -25%;
   position: fixed;
   z-index: -845; }
 
