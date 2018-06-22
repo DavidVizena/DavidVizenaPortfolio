@@ -106,8 +106,8 @@ body {
   top: 57%;
   transform: translate(-50%, -50%); }
   .aboutMeBG img {
-    height: 80%;
-    width: 80%; }
+    height: 100%;
+    width: 100%; }
 
 #textBoth {
   position: absolute;
