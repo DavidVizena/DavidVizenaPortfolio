@@ -392,7 +392,8 @@ body {
     left: 2%; }
 
   .contactContent {
-    top: 80%; } }
+    top: 85%;
+    left: 0%; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }
