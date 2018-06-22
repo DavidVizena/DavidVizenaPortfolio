@@ -388,7 +388,8 @@ body {
     align-items: center; }
 
   .nav {
-    width: 100%; } }
+    width: 100%;
+    left: 20%; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }
