@@ -388,8 +388,10 @@ body {
     align-items: center; }
 
   .nav {
+    position: absolute;
     width: 4em;
-    display: inline-flex; } }
+    display: inline-flex;
+    left: 10%; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }
