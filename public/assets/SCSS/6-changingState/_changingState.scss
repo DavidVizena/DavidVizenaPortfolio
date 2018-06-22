@@ -18,10 +18,11 @@
     align-items: center;
   }
   .nav {
-    position: absolute;
     width: 4em;
     display: inline-flex;
-    left: 10%;
+    li {
+      float: left;
+    }
   }
 }
 
