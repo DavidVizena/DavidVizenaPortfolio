@@ -393,11 +393,32 @@ body {
 
   .contactContent {
     top: 85%;
-    left: 0%; }
+    left: -9%; }
 
   .projects {
     width: 80%;
-    height: 80%; } }
+    height: 80%;
+    padding-left: 0;
+    padding-top: 105px;
+    z-index: 0;
+    overflow-y: visible; }
+    .projects img {
+      height: 10em;
+      width: 17em; }
+    .projects #huddle {
+      width: 0; }
+    .projects #zelda {
+      width: 0; }
+    .projects #gundam {
+      width: 0; }
+    .projects #harryPotter {
+      width: 0; }
+    .projects #gifTastic {
+      width: 0; }
+    .projects #trainSchedule {
+      width: 0; }
+    .projects #liriNode {
+      width: 0; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }

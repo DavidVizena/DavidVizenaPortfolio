@@ -23,11 +23,40 @@
   }
   .contactContent {
     top: 85%;
-    left: 0%;
+    left: -9%;
   }
   .projects {
     width: 80%;
     height: 80%;
+    padding-left: 0;
+    padding-top: 105px;
+    z-index: 0;
+    overflow-y: visible;
+    img {
+      height: 10em;
+      width: 17em;
+    }
+    #huddle {
+      width: 0;
+    }
+    #zelda {
+      width: 0;
+    }
+    #gundam {
+      width: 0;
+    }
+    #harryPotter {
+      width: 0;
+    }
+    #gifTastic {
+      width: 0;
+    }
+    #trainSchedule {
+      width: 0;
+    }
+    #liriNode {
+      width: 0;
+    }
   }
 }
 
