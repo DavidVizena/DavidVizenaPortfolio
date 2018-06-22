@@ -396,8 +396,8 @@ body {
     left: 0%; }
 
   .projects {
-    height: 5em;
-    width: 10em; } }
+    width: 80%;
+    height: 80%; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {
     left: 37%; }
