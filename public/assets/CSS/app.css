@@ -390,7 +390,7 @@ body {
   .nav {
     width: 4em;
     display: inline-flex; }
-    .nav li {
+    .nav li a {
       float: left; } }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .viewWorkContainer {

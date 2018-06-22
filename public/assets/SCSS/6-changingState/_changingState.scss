@@ -3,44 +3,44 @@
 /* mediascreens */
 
 @media screen and (min-width: 1px) and (max-width: 640px) {
-  .viewWorkContainer {
-    left: 25%;
-    top: 60%;
-  }
-  .line {
-    display: none;
-  }
-  #davidVizena {
-    width: 20em;
-    height: 10em;
-    top: 15%;
-    left: 10%;
-    align-items: center;
-  }
-  .nav {
-    width: 4em;
-    display: inline-flex;
-    li {
-      float: left;
+    .viewWorkContainer {
+        left: 25%;
+        top: 60%;
     }
-  }
+    .line {
+        display: none;
+    }
+    #davidVizena {
+        width: 20em;
+        height: 10em;
+        top: 15%;
+        left: 10%;
+        align-items: center;
+    }
+    .nav {
+        width: 4em;
+        display: inline-flex;
+        li a {
+            float: left;
+        }
+    }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-  .viewWorkContainer {
-    left: 37%;
-  }
-  .line {
-    display: none;
-  }
+    .viewWorkContainer {
+        left: 37%;
+    }
+    .line {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-  .viewWorkContainer {
-    left: 30%;
-  }
-  #davidVizena {
-    top: 20%;
-    left: 30%;
-  }
+    .viewWorkContainer {
+        left: 30%;
+    }
+    #davidVizena {
+        top: 20%;
+        left: 30%;
+    }
 }
