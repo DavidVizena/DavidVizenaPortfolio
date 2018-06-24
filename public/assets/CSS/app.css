@@ -41,12 +41,10 @@ body {
   opacity: 0.1; }
 
 #davidVizena {
-  position: absolute;
+  margin-top: 210px;
   height: 20em;
   width: 30em;
-  opacity: 0.3;
-  top: 25%;
-  left: 30%; }
+  opacity: 0.3; }
 
 /*  */
 .paraBG {
