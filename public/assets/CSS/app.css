@@ -57,16 +57,10 @@ body {
     opacity: 0.5; }
 
 .projects {
+  margin-top: 150px;
   z-index: 100;
-  position: absolute;
-  overflow-y: auto;
-  text-align: center;
-  height: 100%;
-  width: 80%;
-  left: 11%;
-  padding-left: 150px;
-  padding-bottom: 150px;
-  padding-top: 200px; }
+  overflow-y: show;
+  text-align: center; }
   .projects img {
     height: 20em;
     width: 40em;
@@ -75,20 +69,6 @@ body {
     transition: all 0.2s ease; }
   .projects :hover {
     transform: scale(1.05); }
-  .projects #huddle {
-    width: 700px; }
-  .projects #zelda {
-    width: 700px; }
-  .projects #gundam {
-    width: 700px; }
-  .projects #harryPotter {
-    width: 700px; }
-  .projects #gifTastic {
-    width: 700px; }
-  .projects #trainSchedule {
-    width: 700px; }
-  .projects #liriNode {
-    width: 700px; }
 
 #backgroundImage {
   background-size: cover;

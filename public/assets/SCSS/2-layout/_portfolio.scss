@@ -13,16 +13,10 @@
 
 // PORTFOLIO BOXES
 .projects {
+  margin-top: 150px;
   z-index: 100;
-  position: absolute;
-  overflow-y: auto;
+  overflow-y: show;
   text-align: center;
-  height: 100%;
-  width: 80%;
-  left: 11%;
-  padding-left: 150px;
-  padding-bottom: 150px;
-  padding-top: 200px;
   img {
     height: 20em;
     width: 40em;
@@ -32,27 +26,6 @@
   }
   :hover {
     transform: scale(1.05);
-  }
-  #huddle {
-    width: 700px;
-  }
-  #zelda {
-    width: 700px;
-  }
-  #gundam {
-    width: 700px;
-  }
-  #harryPotter {
-    width: 700px;
-  }
-  #gifTastic {
-    width: 700px;
-  }
-  #trainSchedule {
-    width: 700px;
-  }
-  #liriNode {
-    width: 700px;
   }
 }
 
