@@ -354,6 +354,12 @@ body {
   .viewWorkContainer {
     left: 25%;
     top: 60%; }
+    .viewWorkContainer a:before {
+      content: "";
+      left: 29%; }
+    .viewWorkContainer a:after {
+      content: "";
+      left: 29%; }
 
   .line {
     display: none; }
@@ -376,8 +382,7 @@ body {
   .projects {
     width: 80%;
     height: 80%;
-    padding-left: 0;
-    padding-top: 105px;
+    padding-left: 25px;
     z-index: 0;
     overflow-y: visible; }
     .projects img {
