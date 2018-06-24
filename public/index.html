@@ -5,50 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- RESET LINK -->
-    <link rel="stylesheet" href="./assets/CSS/reset.css">
     <!-- BOOTSTRAP STYLE SHEET -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-
     <!-- FONT AWESOME CDN -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!-- PERSONAL STYLE SHEET -->
-    <!-- <link rel="stylesheet" href="./assets/CSS/style.css"> -->
-    <link rel="stylesheet" href="./assets/CSS/app.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
     <!-- JQUERY SCRIPT LINKS -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <!-- PERSONAL JAVASCRIPT SHEET -->
-    <script src="./assets/Javascript/app.js"></script>
+    <script src="./assets/js/app.js"></script>
+
     <title>David Vizena - Home</title>
 </head>
 
 <body>
-    <!-- Transition -->
-    <!-- <div class="loader loaderTransition"></div> -->
-    <!--  -->
 
-    <!-- Main graphics and name -->
-    <video autoplay loop muted id="background">
-        <source src="./assets/Movies/movBG.mp4" type="video/mp4">
-    </video>
+    <!-- MP4 Background -->
+    <video src="./assets/movies/movBG.mp4" autoplay loop muted id="background"></video>
+
+    <!-- Overlay to darkent the MP4 -->
     <div class="headerOverlay"></div>
-    <img id="davidVizena" src="./assets/Images/davidVizena.png" alt="DavidVizena">
-    <!--  -->
 
-    <!-- ViewWork Button -->
-    <div class="viewWorkContainer">
-        <a href="./portfolio.html">
-            View Work
-            <span class="viewWorkArrow">></span>
-        </a>
-        <div class="line"></div>
+    <!-- David Vizena name image -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center align-middle">
+                <img id="davidVizena" src="./assets/images/davidVizena.png" alt="David Vizena">
+            </div>
+        </div>
     </div>
 
-    <!--  -->
+    <!-- ViewWork Button -->
+    <div class="container viewWorkContainer">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="./portfolio.html">
+                    View Work
+                    <span class="viewWorkArrow">></span>
+                </a>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Contact Button -->
-    <div class="container .contactMenu text-center">
+    <div class="container contactMenu text-center">
         <div id="contactRow" class="row">
             <div class="col-sm-12 text-left">
                 <a id="bottomMenu" href="#">
@@ -84,7 +88,8 @@
         </a>
 
     </div>
-    <!--  -->
+
+
 </body>
 
 </html>
