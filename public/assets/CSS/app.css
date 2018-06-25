@@ -71,16 +71,14 @@ body {
     transform: scale(1.05); }
 
 #backgroundImage {
-  background-size: cover;
-  top: -5%;
-  left: -30%;
   position: fixed;
+  height: 100vh;
+  width: 100vw;
   z-index: -845; }
 
 .aboutMeBG {
   position: absolute;
-  top: 0;
-  left: 55%;
+  left: 50%;
   top: 57%;
   transform: translate(-50%, -50%); }
   .aboutMeBG img {
@@ -89,23 +87,18 @@ body {
 
 #textBoth {
   position: absolute;
-  width: 60%;
-  height: 52%;
-  top: 28%;
-  left: 19%; }
+  width: 90em;
+  height: 40em;
+  top: 23%;
+  left: 9%; }
 
 #am {
-  position: absolute;
-  height: 60%;
-  widows: 60%;
-  top: 12%; }
+  height: 20em;
+  width: 50em; }
 
 #was {
-  position: absolute;
-  height: 60%;
-  width: 55%;
-  top: -2%;
-  left: 40%; }
+  height: 20em;
+  width: 50em; }
 
 .nav {
   font-family: nexaBold;
@@ -116,7 +109,7 @@ body {
   z-index: 101;
   position: fixed;
   top: 5%;
-  right: 37%; }
+  right: 39%; }
   .nav .current {
     text-decoration: underline;
     color: #f0f0f0; }

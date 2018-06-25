@@ -27,16 +27,27 @@
 
 <body>
 
-    <!-- BACKGROUND -->
+    <!-- Background image -->
     <img id="backgroundImage" src="./assets/Images/aboutMeBG.jpg" alt="Background">
 
-    <!-- ABOUT ME WORDS LEFT -->
-    <article class="content contentLeft">
-        <img src="./assets/Images/am.png" alt="am" id="am">
-        <img id="textBoth" src="./assets/Images/leftRightText.png" alt="text">
-    </article>
+    <!-- Paragraph image around the potrait -->
+    <img id="textBoth" src="./assets/Images/leftRightText.png" alt="text">
+
+
+    <!-- Container for the "am" and "was" headings -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="./assets/Images/am.png" alt="am" id='am'>
+            </div>
+            <div class="col-sm-6">
+                <img src="./assets/Images/was.png" alt="was" id="was">
+            </div>
+        </div>
+    </div>
     <!--  -->
 
+    <!-- Parallax potrait -->
     <div class="container aboutMeBG">
         <ul id="scene">
             <li class="layer" id="aboutMe1" data-depth="0.17">
@@ -70,14 +81,9 @@
     </div>
     <!--  -->
 
-    <!-- ABOUT ME RIGHT -->
-    <article class="content contentRight">
-        <img src="./assets/Images/was.png" alt="was" id="was">
-    </article>
-    <!--  -->
 
 
-    <!-- NAVBAR -->
+    <!-- Navbar -->
     <ul class="nav">
         <li>
             <a href="./index.html">Home</a>
@@ -92,7 +98,7 @@
     <!--  -->
 
 
-    <!-- ROTATING TEXT -->
+    <!-- Rotating text -->
     <section>
         <div id="textContainer"></div>
     </section>
