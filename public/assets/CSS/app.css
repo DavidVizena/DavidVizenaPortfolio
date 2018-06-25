@@ -87,12 +87,10 @@ body {
     width: 100%; }
 
 #textBoth {
-  position: relative;
   width: 100em;
   height: 40em;
   padding-left: 125px;
-  margin-top: -50px;
-  z-index: -50; }
+  margin-top: -50px; }
 
 #am {
   height: 10em;
