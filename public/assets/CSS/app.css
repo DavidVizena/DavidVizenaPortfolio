@@ -86,19 +86,22 @@ body {
     width: 100%; }
 
 #textBoth {
-  position: absolute;
-  width: 90em;
+  width: 100em;
   height: 40em;
-  top: 23%;
-  left: 9%; }
+  padding-left: 125px;
+  margin-top: -50px; }
 
 #am {
-  height: 20em;
-  width: 50em; }
+  height: 10em;
+  width: 30em;
+  padding-right: 78px; }
 
 #was {
-  height: 20em;
-  width: 50em; }
+  height: 10em;
+  width: 30em; }
+
+.amWas {
+  padding-top: 100px; }
 
 .nav {
   font-family: nexaBold;
