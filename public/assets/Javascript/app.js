@@ -17,7 +17,7 @@ $(document).ready(function() {
   //
   // Closes contact when you hover off of it
   $(
-    ".headerOverlay, #davidVizena, body, .viewWorkContainer, .paraBG, .abstractBG, .paraBG, #background, .nav, #am, #was, #textBoth, .aboutMeBG, #huddle, #zelda, #gundam, #harryPotter, #gifTastic, #trainSchedule"
+    ".headerOverlay, #davidVizena, body, .viewWorkContainer, .paraBG, col-sm-12, col-sm-4, col-sm-6, .abstractBG, .paraBG, #background, .nav, #am, #was, #textBoth, .aboutMeBG, #huddle, #zelda, #gundam, #harryPotter, #gifTastic, #trainSchedule"
   ).hover(function closeBottomMenu() {
     bottomMenu.css({ height: "0" });
     contactText.css({ color: "#f0f0f0" });
