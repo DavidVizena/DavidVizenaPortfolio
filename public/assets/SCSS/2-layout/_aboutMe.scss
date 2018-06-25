@@ -1,43 +1,37 @@
 // ABOUTME SCSS
 #backgroundImage {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  z-index: -845;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -845;
 }
 
 .aboutMeBG {
-  position: absolute;
-  left: 50%;
-  top: 57%;
-  transform: translate(-50%, -50%);
-  img {
-    height: 100%;
-    width: 100%;
-  }
-  z-index: -49;
+    padding-top: 100px;
+    img {
+        height: 75%;
+        width: 75%;
+    }
+    z-index: -49;
 }
 
 #textBoth {
-  width: 100em;
-  height: 40em;
-  padding-left: 125px;
-  margin-top: -50px;
+    width: 100em;
+    height: 40em;
+    padding-left: 125px;
+    margin-top: -50px;
 }
 
 #am {
-  height: 10em;
-  width: 30em;
-  padding-right: 78px;
+    color: $whiteColor;
 }
 
 #was {
-  height: 10em;
-  width: 30em;
+    color: $whiteColor;
 }
 
 .amWas {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 //

@@ -77,14 +77,11 @@ body {
   z-index: -845; }
 
 .aboutMeBG {
-  position: absolute;
-  left: 50%;
-  top: 57%;
-  transform: translate(-50%, -50%);
+  padding-top: 100px;
   z-index: -49; }
   .aboutMeBG img {
-    height: 100%;
-    width: 100%; }
+    height: 75%;
+    width: 75%; }
 
 #textBoth {
   width: 100em;
@@ -93,13 +90,10 @@ body {
   margin-top: -50px; }
 
 #am {
-  height: 10em;
-  width: 30em;
-  padding-right: 78px; }
+  color: #e8e8e8; }
 
 #was {
-  height: 10em;
-  width: 30em; }
+  color: #e8e8e8; }
 
 .amWas {
   padding-top: 100px; }
@@ -113,7 +107,7 @@ body {
   z-index: 101;
   position: fixed;
   top: 5%;
-  right: 39%; }
+  right: 36%; }
   .nav .current {
     text-decoration: underline;
     color: #f0f0f0; }
